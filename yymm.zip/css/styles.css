@@ -1,0 +1,156 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+  
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f4;
+    padding-top: 70px;
+}
+::selection{
+    background: #1b1b1b ;
+    color: rgb(255, 85, 0);
+}
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 20px 30px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+  
+nav a:hover {
+    color: #ffffff;
+    background-color: #103ccb;
+    padding: 20px 10px;
+}
+nav a.active {
+    color: #ffffff;
+    background-color: #103ccb;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+
+  
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+  
+header h1 {
+    font-size: 3rem;
+    color: #2c005a;
+}
+  
+/* Section Styles */
+section{
+    position: relative;
+    background: #ffffff;
+    padding: 270px 40px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+}
+
+section h1{
+    font-size: 2rem;
+    color: #2c005a;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
+    margin-top: -190px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    width: 75%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #dfe9f3, #ffffff);
+}
+  
+h1 {
+    color: #2c2c6b;
+    font-size: 2rem;
+}
+  
+.comment-box {
+    border: 2px solid #7c74f2;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f7f8ff;
+}
+  
+fieldset {
+    border: 2px solid #00b6b6;
+    padding: 15px;
+    background-color: #e6e6e6;
+}
+  
+legend {
+    font-weight: bold;
+    color: #00b6b6;
+}
+  
+input[type="text"], input[type="email"], textarea {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #888;
+    border-radius: 4px;
+}
+  
+button {
+    padding: 10px 15px;
+    background-color: #4444aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #6a0dad;
+    margin: 10px 0 20px;
+    width: 75%;
+}
+
